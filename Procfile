@@ -1,2 +1,2 @@
-web: gunicorn main:app
+web: python main.py
 heroku ps:scale web=1
